@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.alignment{
+  font-weight: 500;
+  font-size: 28px;
+  color: white;
+  text-align: end;
+  padding-top: 5%;
+  margin-right: 31%;
+}
+
+input[type="email"],
+select,
+textarea {
+  width: 40%;
+  padding: 12px;
+  border: 2px solid #ffff00;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin-top: 2%;
+}
+.formAlignment{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-top: 8%;
+    
+}
+
+
+button[type="submit"] {
+  background-color: #ffff00;
+  color: black;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer; 
+  margin-top: 10px;
+  margin-left: 12%;
+}
+
+.BgImage{
+  opacity: 0.4;
+  background-image :url("https://www.ycabfoundation.org/wp-content/uploads/2018/05/Quotes-021.jpg");
+  background-size: cover;
+  height: 80vh;
+}
+
+.BGColor{
+  background-color:black;
+  width: 90%;
+  height: 100%;
+}
+.text{
+  color: white;
+  font-size: x-large;
+  margin-left: 13%;
+  font-weight: 900;
+  color: #ffff00;
+  font-size: xx-large;
+ 
+}
